@@ -1,4 +1,4 @@
-# SSLTimeTool
+# 时间工具类基本使用方法
 
 NSDate *date = [NSDate date];
 
