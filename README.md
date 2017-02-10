@@ -19,7 +19,7 @@ NSLog(@"变化的时间显示:%@",changedTime);
 //yyyy-MM-dd  
 NSString *ymdLineTime = timeStamp.ymdLineTimeFromTimeStamp;  
 //yyyy-MM-dd HH:mm  
-NSString *ymdhmLineTime = timeStamp.ymdHmLineTimeFromTimeStamp;  
+NSString *ymdhmLineTime = timeStamp.ymdHmLineTimeFromTimeStamp; 
 //yyyy-MM-dd HH:mm:ss  
 NSString *ymdHmsLineTime = timeStamp.ymdHmsLineTimeFromTimeStamp;  
 
@@ -29,5 +29,5 @@ NSLog(@"yyyy-MM-dd HH:mm:ss:%@",ymdHmsLineTime);
 
 ##时间转换为时间戳
 //yyyy-MM-dd  
-NSString *ymdLineTimeStamp = ymdLineTime.timeStampFromYMdLineTime;  
+NSString *ymdLineTimeStamp = ymdLineTime.timeStampFromYMdLineTime; 
 NSLog(@"yyyy-MM-dd类型 时间戳:%@",ymdLineTimeStamp);  
